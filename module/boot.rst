@@ -21,7 +21,7 @@ Initialize the peripheral according to the circuit design of the Sipeed M1, such
 
 Detect mode
 ~~~~~~~~~~~~~~~~
-Pin 15 is detected. If the pin is high, it will enter test mode. The test mode will initialize the camera ov2640 and display lcd st7789 and let them work. If it is low, skip the test mode.
+Pin 18 is detected. If the pin is low, it will enter test mode. The test mode will initialize the camera ov2640 and display lcd st7789 and let them work. If it is high(default), skip the test mode.
 
 Boot
 ~~~~~~~~~~~~
